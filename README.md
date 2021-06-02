@@ -6,7 +6,7 @@ This repository contains the C. elegans data and tools associated with the Socie
 
 If you are in a rush, just download this CSV file, which has the neuron name, and x-y location.
 
-> scaled-labeled-data/white-etal-celegans-neuron-position.sorted.csv 
+> [a relative link](scaled-labeled-data/white-etal-celegans-neuron-position.sorted.csv)
 
 # README 
 
