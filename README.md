@@ -1,4 +1,4 @@
-# *C. elegans* cell location and distance data
+# *C. elegans* cell location data
 
 This repository contains the C. elegans data and tools associated with the Society of Neuroscience abstract below:
 
