@@ -4,13 +4,39 @@ Yoonsuck Choe, Bruce H. McCormick, and Wonryull Koh
 Department of Computer Science
 Texas A&M University
 
-We have constructed the C. elegans Web (CEW), an XML web-based database of a complete connectivity structure of the nematode <i>C. elegans</i>|*starf*|. Each neuron is assigned its own webpage; and hyperlinks between pages represent synapses, designate pre- and postsynaptic neurons, and thus wire up the network. Network analysis tools from the CAIDA tools were used to crawl the CEW to obtain the connectivity graph and visualize its network topology. The advantages of this representation are:  (1) it is highly distributed and scalable, (2) hyperlinks naturally represent connection topology, and (3) analysis tools developed for computer network analysis can be used without much modification.
+We have constructed the C. elegans Web (CEW), an XML web-based database of a
+complete connectivity structure of the nematode <i>C. elegans</i>|*starf*|.
+Each neuron is assigned its own webpage; and hyperlinks between pages represent
+synapses, designate pre- and postsynaptic neurons, and thus wire up the
+network. Network analysis tools from the CAIDA tools were used to crawl the CEW
+to obtain the connectivity graph and visualize its network topology. The
+advantages of this representation are:  (1) it is highly distributed and
+scalable, (2) hyperlinks naturally represent connection topology, and (3)
+analysis tools developed for computer network analysis can be used without much
+modification.
 
-One important property of the nervous system not sufficiently addressed in such a hyperlink network is that of conduction delay and neuronal integration time, which adds to it a temporal dimension. We have developed a method of augmenting the connectivity information with temporal information by splitting vertices and edges in the connectivity graph. Such a temporally augmented CEW can again be analyzed with standard network analysis tools. 
+One important property of the nervous system not sufficiently addressed in such
+a hyperlink network is that of conduction delay and neuronal integration time,
+which adds to it a temporal dimension. We have developed a method of augmenting
+the connectivity information with temporal information by splitting vertices
+and edges in the connectivity graph. Such a temporally augmented CEW can again
+be analyzed with standard network analysis tools. 
 
-The C. elegans Web serves as a prototype of our similarly constructed web-based storage and retrieval scheme, the Mouse Brain Web (MBW). Here, the MBW representations are virtual views of a common database built from pooling data from multiple mice imaged with typically 5 basic stains. Such a biological database enables us to characterize the mouse brain network by discovering its basic circuits, which model geometrically a significant part of the mouse brain network.  
+The C. elegans Web serves as a prototype of our similarly constructed web-based
+storage and retrieval scheme, the Mouse Brain Web (MBW). Here, the MBW
+representations are virtual views of a common database built from pooling data
+from multiple mice imaged with typically 5 basic stains. Such a biological
+database enables us to characterize the mouse brain network by discovering its
+basic circuits, which model geometrically a significant part of the mouse brain
+network.  
 
-In sum, representing neuronal connectivity data in a web-based database provides a natural and efficient way of storing and analyzing connectivity data by leveraging on existing network analysis tools.
+In sum, representing neuronal connectivity data in a web-based database
+provides a natural and efficient way of storing and analyzing connectivity data
+by leveraging on existing network analysis tools.
 
-|*starf*|The data [1] was kindly provided by Dr. K. Kawamura at Keio University, Japan.
-[1] Oshio, K., Morita, S., Osana, Y., and Oka, K.; <i>C. elegans</i> synaptic connectivity data, Tech. Rep., CCEP, Keio Future No. 1 (1998)
+|*starf*|The data [1] was kindly provided by Dr. K. Kawamura at Keio
+University, Japan.  
+
+[1] Oshio, K., Morita, S., Osana, Y., and Oka, K.; <i>C.
+elegans</i> synaptic connectivity data, Tech. Rep., CCEP, Keio Future No. 1
+(1998)
