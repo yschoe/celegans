@@ -1,0 +1,56 @@
+Author: Yoonsuck Choe <choe(a)tamu.edu>
+	http://faculty.cs.tamu.edu
+
+Date:   Mon Dec  6 09:26:53 CST 2004
+
+Copyright and Disclaimer
+
+	All programs are distributed under GNU Public License.
+	All data (except for page scans from white:ptrslb86) are
+	distribted free for private use. For commercial use, please
+	contact the author.
+
+
+
+annoteppm3.tcl: the main program that allows you to load a ppm file
+	and click on it to get a series of (x,y) screen coordinates.
+
+	It also allows you to give it a command line argument
+	so that you can subsequently verify things like the points you
+	clicked are correct.
+
+	Just run
+
+		annoteppm3.tcl
+
+	for the help.
+
+Tips:
+
+	The program generates something like:
+
+	12 400
+	15 398
+	...
+
+	You can reap all the stuff and save that to a file, say, "data.dat".
+
+	Then, you can use a short perl command to get these coordinates
+	lined up so that it can be fed to annoteppm3.tcl:
+
+
+		perl -e 'while (<STDIN>) { chop; ($a,$b)=split(/\ /); print "$a,$b,"; }' < data.dat
+
+
+	This will give you something like
+
+		12,400,15,398,....,
+
+	Take that, and construct a annoteppm3.tcl command:
+
+
+		annoteppm3.tcl 1024 768 1 image.ppm poly,12,400,15,398,...,red
+
+	where you're using a 1024x768 ppm image "image.ppm" and you want
+	to draw a polygon with the coordinates specified in color red.
+

@@ -1,0 +1,58 @@
+Author: Yoonsuck Choe <choe(a)tamu.edu>
+        http://faculty.cs.tamu.edu
+
+Date:   Mon Dec  6 09:26:53 CST 2004
+
+Copyright and Disclaimer:
+
+        The data is a rough approximation of true C. elegans data
+        because (1) the data was gathered from a schematic diagram
+        of cell locations in the original source, and (2) the coordinate
+        transformation method may have been nonoptimal. Thus, please do
+        not use this as an authoritative source--you may have to do
+        some work to clean it up.
+
+
+
+This directory contains a scaled (coordinate normalized) version of the 
+raw screen coordinates from white:ptrslb86 in ../raw-data.
+
+The coordinate normalization was done roughly as follows (which is
+not by far the most accurate!):
+
+	1. In each image, find a point that serves as a local origin.
+		
+		heada, headb: the end of the terminal bulb of the pharnyx
+			was used as the local origin.
+
+		taila,tailb : the anal opening was used as the local origin.
+
+		bodya,bodyb,bodyc: the vaginal opening was used as the local
+			      origin.
+
+	2. To find the appropriate scales, measure the width of the trunk
+	   at the local origins.
+
+	3. Find relationship between the local origins in the full body
+	   figure.
+
+	4. Go run the calculations.
+
+These are the resulting scaled data, when plotted in a single figure, will
+give you an approximately worm-like layout. As you can see, bodya and bodyb
+are not properly aligned.
+
+	scaledbodya.dat
+	scaledbodyb.dat
+	scaledbodyc.dat
+	scaledheada.dat
+	scaledheadb.dat
+	scaledtaila.dat
+	scaledtailb.dat
+
+Here's a plot made from the above:
+
+	celegans-all.ps
+	celegans-all.pdf
+
+

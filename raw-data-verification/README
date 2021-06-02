@@ -1,0 +1,53 @@
+Author: Yoonsuck Choe <choe(a)tamu.edu>
+        http://faculty.cs.tamu.edu
+
+Date:   Mon Dec  6 09:26:53 CST 2004
+
+Copyright and Disclaimer:
+
+        The data is a rough approximation of true C. elegans data
+        because (1) the data was gathered from a schematic diagram
+        of cell locations in the original source, and (2) the coordinate
+        transformation method may have been nonoptimal. Thus, please do
+        not use this as an authoritative source--you may have to do
+        some work to clean it up.
+
+
+
+This directory contains raw screen coordinates from white:ptrslb86, and
+their overlays on the actual page scans.
+
+*.dat: 		   screen coordinates gathered using ../code/annoteppm3.tcl  .
+
+*.png: 		   page scans (these are from white:ptrslb86: see ../README).
+
+*.ppm: 		   PPM version of the page scans.
+
+*.ppm-annoted.pdf: you can give the screen coordinates as command line
+		   arguments to annoteppm3.tcl to visualize if you've
+		   done it right. The pdf files show the results.
+
+
+From the trunk:
+
+	celegans-body.dat
+	celegans-body.png
+	celegans-body.ppm
+	celegans-body.ppm-annoted.pdf
+
+From the head:
+
+	celegans-head-a.location.dat
+	celegans-head-a.ppm
+	celegans-head-a.ppm-annoted.pdf
+	celegans-head-b.location.dat
+	celegans-head-b.ppm
+	celegans-head-b.ppm-annoted.pdf
+	celegans-head.png
+
+From the tail:
+
+	celegans-rectal.dat
+	celegans-rectal.png
+	celegans-rectal.ppm
+	celegans-rectal.ppm-annoted.pdf

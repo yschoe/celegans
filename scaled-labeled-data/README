@@ -1,0 +1,31 @@
+Author: Yoonsuck Choe <choe(a)tamu.edu>
+        http://faculty.cs.tamu.edu
+
+Date:   Mon Dec  6 09:26:53 CST 2004
+
+Copyright and Disclaimer:
+
+        The data is a rough approximation of true C. elegans data
+        because (1) the data was gathered from a schematic diagram
+        of cell locations in the original source, and (2) the coordinate
+        transformation method may have been nonoptimal. Thus, please do
+        not use this as an authoritative source--you may have to do
+        some work to clean it up.
+
+
+
+This directory contains a scaled data in ../scaled-data with their
+neurons labeled.
+
+	white-etal-celegans-neuron-position.coord
+		coordinate only
+
+	white-etal-celegans-neuron-position.dat
+		coordinate and neuron label
+
+	white-etal-celegans-neuron-position.sorted.csv
+		sorted CSV file you can import from a spreadsheet
+
+	white-etal-celegans-neuron-position.sorted.dat
+		sorted by neuron name
+
