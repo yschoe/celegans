@@ -8,6 +8,11 @@ If you are in a rush, just download this CSV file, which has the neuron name, an
 
 > [scaled-labeled-data/white-etal-celegans-neuron-position.sorted.csv](scaled-labeled-data/white-etal-celegans-neuron-position.sorted.csv)
 
+New additions since 2004:
+
+> Society for Neuroscience poster: [choe-sfn04-poster.pdf](choe-sfn04-poster.pdf)
+> Society for Neuroscience abstract: [choe-sfn04-abstract.txt](choe-sfn04-abstract.txt)
+
 # README 
 
 The original README file (from 2004) is copied below.
