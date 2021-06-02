@@ -1,3 +1,10 @@
+# Legacy code. This was used to generate the following plots:
+# - ../scaled-data/celegans-all.pdf
+# - ../scaled-data/celegans-all.ps
+#
+# Use the plotcelegans.py script instead.
+#
+# ----
 # octave code (plot commands are ancient, and you may have to edit it to get it to work).
 # data are in ../scaled-data
 function plotcelegans()
