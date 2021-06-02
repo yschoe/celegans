@@ -4,6 +4,10 @@ This repository contains the C. elegans data and tools associated with the Socie
 
 > Yoonsuck Choe, Bruce H. McCormcik, and Wonryull Koh. Network connectivity analysis on the temporally augmented em c. elegans web: A pilot study. In Society for Neuroscience Abstracts.  Washington, DC: Society for Neuroscience, 2004. Program No. 921.9.
 
+If you are in a rush, just download this CSV file, which has the neuron name, and x-y location.
+
+> scaled-labeled-data/white-etal-celegans-neuron-position.sorted.csv 
+
 # README 
 
 The original README file (from 2004) is copied below.
