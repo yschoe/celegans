@@ -11,6 +11,12 @@ Copyright and Disclaimer
 	contact the author.
 
 
+plotcelegans.m : plot neuron locations.
+	result: ../scaled-data/celegans-all.pdf
+
+plotcelegans.py: python version of plotcelegans.m  (this is better since it will plot in the correct aspect ratio).
+        - result: ../scaled-data/celegans-all-python.pdf
+
 
 annoteppm3.tcl: the main program that allows you to load a ppm file
 	and click on it to get a series of (x,y) screen coordinates.

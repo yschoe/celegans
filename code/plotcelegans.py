@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # - python3
+# ported plotcelegans.m to Python
+# - this will generate ../scaled-data/celegans-all-python.pdf
 
 import numpy as np
 import matplotlib.pyplot as plt
